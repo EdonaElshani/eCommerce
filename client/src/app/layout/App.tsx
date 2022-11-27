@@ -1,4 +1,7 @@
+import { Container, CssBaseline } from "@mui/material";
 import { useEffect, useState } from "react";
+import Catalog from "../../fatures/catalog/catalog";
+import Header from "../../fatures/catalog/Header";
 import { Product } from "../models/product";
 
 function App() {
@@ -26,17 +29,11 @@ function App() {
 
   return (
     <div className="App">
-       <h1>Re-Store</h1>
-       <ul>
-          {products.map((item, index) => (
-            <li key={index}>
-              Emri i produktit: {item.name}, Cmimi: {item.price}, Pershkrimi: {item.description}
-            </li>
-          ))}
-       </ul>
-       <div>
-        <button onClick={addProduct}>Add Product</button>
-       </div>
+      <CssBaseline/>
+      <Header/>
+      <Container>
+       <Catalog products={products} addProduct={addProduct}/>
+      </Container>
     </div>
   );
 }
