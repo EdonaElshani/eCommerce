@@ -1,37 +1,53 @@
-import { AppBar, Box, Button, FormControlLabel, FormGroup, IconButton, Switch, Toolbar, Typography } from "@mui/material";
+import { AppBar, Badge, Box, Button, FormControlLabel, FormGroup, IconButton, List, ListItem, Switch, Toolbar, Typography } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
-export interface Props{
+import { NavLink } from "react-router-dom";
+import { ShoppingCart } from "@mui/icons-material";
+export interface Props {
   darkMode: boolean;
   handleThemeChange: () => void;
 }
-export default function Header({darkMode, handleThemeChange }: Props) { 
+
+const midLinks = [
+  { title: "catalog", path: "/catalog" },
+  { title: "about", path: "/about" },
+  { title: "contact", path: "/contact" },
+]
+export default function Header({ darkMode, handleThemeChange }: Props) {
   return (
     <>
-      <Box sx={{ flexGrow: 1, mb: 4 }}>
-        <AppBar position="static">
-          <Toolbar>
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-              sx={{ mr: 2 }}
-            >
-              <MenuIcon />
-            </IconButton>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Re-Store
+      <AppBar position="static" sx={{ mb: 4 }}>
+        <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+            <Typography variant="h6" component={NavLink} to={'/'} sx={{ color: 'inherit', textDecoration: 'none' }}>
+              RE-STORE
             </Typography>
-            <FormGroup>
-              <FormControlLabel control={<Switch checked={darkMode} onChange={event => handleThemeChange()}/>} label="Theme" />
-            </FormGroup>
+            <Switch checked={darkMode} onChange={event => handleThemeChange()} />
+          </Box>
+          <List sx={{ display: 'flex' }}>
+            {
+              midLinks.map(({ title, path }) => ((
+                <ListItem key={path} to={path} component={NavLink}
+                  sx={{
+                    color: 'inherit', typography: 'h6', '&:hover': {
+                      color: 'grey.500'
+                    }, '&.active': { color: 'text.secondary' }
+                  }}>
+                  {title.toUpperCase()}
+                </ListItem>
+              )))
+            }
+          </List>
+          <Box>
+            <IconButton size='large' color='inherit'>
+              <Badge badgeContent={4} color='secondary'>
+                <ShoppingCart />
+              </Badge>
+            </IconButton>
             <Button color="inherit">Login</Button>
-          </Toolbar>
-        </AppBar>
-      </Box>
-      {/* {theme = true}
-      {alert(theme)} */}
-      
+            <Button color="inherit">Register</Button>
+          </Box>
+        </Toolbar>
+      </AppBar>
     </>
   )
 }
