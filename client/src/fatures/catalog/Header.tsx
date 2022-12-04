@@ -1,16 +1,14 @@
-import { AppBar, Badge, Box, Button, FormControlLabel, FormGroup, IconButton, List, ListItem, Switch, Toolbar, Typography } from "@mui/material";
-import MenuIcon from '@mui/icons-material/Menu';
+import { AppBar, Badge, Box, Button, IconButton, List, ListItem, Switch, Toolbar, Typography } from "@mui/material";
 import { NavLink } from "react-router-dom";
 import { ShoppingCart } from "@mui/icons-material";
 export interface Props {
   darkMode: boolean;
   handleThemeChange: () => void;
 }
-
 const midLinks = [
   { title: "catalog", path: "/catalog" },
   { title: "about", path: "/about" },
-  { title: "contact", path: "/contact" },
+  { title: "contact", path: "/contact"},
 ]
 export default function Header({ darkMode, handleThemeChange }: Props) {
   return (
@@ -25,8 +23,8 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
           </Box>
           <List sx={{ display: 'flex' }}>
             {
-              midLinks.map(({ title, path }) => ((
-                <ListItem key={path} to={path} component={NavLink}
+              midLinks.map(({ title, path }, index) => ((
+                <ListItem key={index} to={path} component={NavLink}
                   sx={{
                     color: 'inherit', typography: 'h6', '&:hover': {
                       color: 'grey.500'
