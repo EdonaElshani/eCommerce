@@ -16,197 +16,197 @@ namespace API.Data
             {
                 new Product
                 {
-                    Name = "Angular Speedster Board 2000",
+                    Name = "Nude Heels",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 20000,
                     PictureUrl = "/images/products/sb-ang1.png",
-                    Brand = "Angular",
+                    Brand = "Christian Louboutin",
                     Type = "Boards",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Green Angular Board 3000",
+                    Name = "Dream Pairs",
                     Description = "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
                     Price = 15000,
                     PictureUrl = "/images/products/sb-ang2.png",
-                    Brand = "Angular",
+                    Brand = "Christian Louboutin",
                     Type = "Boards",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Core Board Speed Rush 3",
+                    Name = "Christian Louboutin",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
                     Price = 18000,
                     PictureUrl = "/images/products/sb-core1.png",
-                    Brand = "NetCore",
+                    Brand = "Christian Louboutin",
                     Type = "Boards",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Net Core Super Board",
+                    Name = "Christian Louboutin Heels",
                     Description =
                         "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
                     Price = 30000,
                     PictureUrl = "/images/products/sb-core2.png",
-                    Brand = "NetCore",
+                    Brand = "Christian Louboutin",
                     Type = "Boards",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "React Board Super Whizzy Fast",
+                    Name = "Glamma Silver Heels",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 25000,
                     PictureUrl = "/images/products/sb-react1.png",
-                    Brand = "React",
+                    Brand = "Steve Madden",
                     Type = "Boards",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Typescript Entry Board",
+                    Name = "Steve Madden High Heels",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 12000,
                     PictureUrl = "/images/products/sb-ts1.png",
-                    Brand = "TypeScript",
+                    Brand = "Steve Madden",
                     Type = "Boards",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Core Blue Hat",
+                    Name = "M.Gemi The Lustro",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 1000,
                     PictureUrl = "/images/products/hat-core1.png",
-                    Brand = "NetCore",
-                    Type = "Hats",
+                    Brand = "M.Gemi",
+                    Type = "High Heels",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Green React Woolen Hat",
+                    Name = "Illusion Lace Cross Strap Pump",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 8000,
                     PictureUrl = "/images/products/hat-react1.png",
-                    Brand = "React",
+                    Brand = "Emmy London",
                     Type = "Hats",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Purple React Woolen Hat",
+                    Name = "Clarks Linnae Pump",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 1500,
                     PictureUrl = "/images/products/hat-react2.png",
-                    Brand = "React",
+                    Brand = "Emmy London",
                     Type = "Hats",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Blue Code Gloves",
+                    Name = "Emmy London Josie",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 1800,
                     PictureUrl = "/images/products/glove-code1.png",
-                    Brand = "VS Code",
+                    Brand = "Emmy London",
                     Type = "Gloves",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Green Code Gloves",
+                    Name = "Christian Louboutin Pigalle Follies",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 1500,
                     PictureUrl = "/images/products/glove-code2.png",
-                    Brand = "VS Code",
+                    Brand = "Christian Louboutin",
                     Type = "Gloves",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Purple React Gloves",
+                    Name = "Tod’s Block Heel Loafers",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 1600,
                     PictureUrl = "/images/products/glove-react1.png",
-                    Brand = "React",
+                    Brand = "Tod’s",
                     Type = "Gloves",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Green React Gloves",
+                    Name = "Jimmy Choo Neutral Romy",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 1400,
                     PictureUrl = "/images/products/glove-react2.png",
-                    Brand = "React",
+                    Brand = "Jimmy Choo",
                     Type = "Gloves",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Redis Red Boots",
+                    Name = "NearlyNude Sandals",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
                     Price = 25000,
                     PictureUrl = "/images/products/boot-redis1.png",
-                    Brand = "Redis",
+                    Brand = "Cole Haan",
                     Type = "Boots",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Core Red Boots",
+                    Name = "Cole Haan Grand Ambition Pump",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 18999,
                     PictureUrl = "/images/products/boot-core2.png",
-                    Brand = "NetCore",
+                    Brand = "Cole Haan",
                     Type = "Boots",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Core Purple Boots",
+                    Name = "Bow Tie Pumps",
                     Description =
                         "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
                     Price = 19999,
                     PictureUrl = "/images/products/boot-core1.png",
-                    Brand = "NetCore",
+                    Brand = "Gucci",
                     Type = "Boots",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Angular Purple Boots",
+                    Name = "Portofino Sandal",
                     Description = "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
                     Price = 15000,
                     PictureUrl = "/images/products/boot-ang2.png",
-                    Brand = "Angular",
+                    Brand = "Gucci",
                     Type = "Boots",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Angular Blue Boots",
+                    Name = "Gucci GG",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
                     Price = 18000,
                     PictureUrl = "/images/products/boot-ang1.png",
-                    Brand = "Angular",
+                    Brand = "Gucci",
                     Type = "Boots",
                     QuantityInStock = 100
                 },
